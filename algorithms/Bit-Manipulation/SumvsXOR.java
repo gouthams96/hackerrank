@@ -4,10 +4,11 @@ public class SumvsXOR {
         Scanner in = new Scanner(System.in);
         long n = in.nextLong();
          if(n>0){
+              //calculate number of zeroes
               long x= Long.toBinaryString(n).length()-Long.bitCount(n);
               System.out.println((long)Math.pow(2,x));
            }else{
                System.out.println(1);
-           };
+           }
     }
 }
