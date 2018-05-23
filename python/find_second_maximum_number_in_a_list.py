@@ -1,0 +1,5 @@
+n = int(input())
+score = list(set(map(int,input().split(" "))))
+score.sort()
+score.pop()
+print(score.pop())
